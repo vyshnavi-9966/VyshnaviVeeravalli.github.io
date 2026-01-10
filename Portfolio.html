@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Academic Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-blob blob1"></div>
+<div class="bg-blob blob2"></div>
+<div class="bg-blob blob3"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="brand-title">VYSHNAVI VEERAVALLI</div>
+        <div class="brand-subtitle">Academic Portfolio</div>
+      </div>
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Academic Portfolio</h1>
+      <p class="muted">Certificates, project reports, and academic documents.</p>
+
+      <div class="search-row">
+        <input id="q" class="search" type="search" placeholder="Search (e.g., SAP, ISO, LCA, DWSIM)..." />
+        <button class="tag active" data-filter="all">All</button>
+        <button class="tag" data-filter="cert">Certificates</button>
+        <button class="tag" data-filter="proj">Project Reports</button>
+        <button class="tag" data-filter="acad">Academic Docs</button>
+      </div>
+
+      <div class="notice">
+        <strong>Note:</strong> View-only.
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section class="card">
+       <div class="section-bar cert"></div>
+      <div class="section-head">
+        <h2 class="section-title">Certificates</h2>
+        <div class="section-sub"></div>
+      </div>
+
+      <div class="grid">
+        <!-- Replace FILE_ID -->
+        <div class="doc-card" data-type="cert" data-title="SAP EHS Certificate">
+          <div class="doc-title">SAP EHS – Operational Sustainability</div>
+          <div class="doc-meta">Certificate · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="SAP EHS – Operational Sustainability"
+              data-src="https://drive.google.com/file/d/1D1FE-TUMWvQ6VsDtCCU2_EHX2rUofpMx/preview">
+              View
+            </button>
+          </div>
+        </div>
+
+        <div class="doc-card" data-type="cert" data-title="German B1/B2 Couse Participation Certificate">
+          <div class="doc-title">German B1/B2 Couse Participation Certificate</div>
+          <div class="doc-meta">Certificate · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="German B1/B2 Couse Participation Certificate"
+              data-src="https://drive.google.com/file/d/1ZvMz68uqeUxk52qx0Kg22RgVOJIfy0u4/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+        
+         <div class="doc-card" data-type="cert" data-title="LEAN Expert">
+          <div class="doc-title">LEAN Expert</div>
+          <div class="doc-meta">Certificate · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="LEAN Expert"
+              data-src="https://drive.google.com/file/d/1VR_afCnofVdCTcTvpjqNEjEXqxvNKsjV/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+        
+        <div class="doc-card" data-type="cert" data-title="LEAN SIX SIGMA Green Belt">
+          <div class="doc-title">LEAN SIX SIGMA Green Belt</div>
+          <div class="doc-meta">Certificate · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="LEAN SIX SIGMA Green Belt"
+              data-src="https://drive.google.com/file/d/1KrxNCrHuk2BBLO1BHM7lUh_eRHFw8tkR/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Reports -->
+   <section class="card">
+      <div class="section-head">
+        <h2 class="section-title">Project Reports</h2>
+        <div class="section-sub"></div>
+      </div>
+
+      <div class="grid">
+        <div class="doc-card" data-type="proj" data-title="Life Cycle Assessment - Hydrogen from Ammonia Report">
+          <div class="doc-title">Life Cycle Assessment – Hydrogen Production from Ammonia</div>
+          <div class="doc-meta">Project report · PDF · Summary recommended</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="LCA – Hydrogen Production from Ammonia"
+              data-src="https://drive.google.com/file/d/1a49nKRG2vDVV5Li6Fujy93YtUM2OSjZg/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+
+        <div class="doc-card" data-type="proj" data-title="Aspen Simulation Report">
+          <div class="doc-title">Allychloride simulation (Using ASPEN Plus V11)</div>
+          <div class="doc-meta">Project report · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="Simulation Report"
+              data-src="https://drive.google.com/file/d/1_9CkQlGLFWMgYZesLB_bWeMWhBcAGwi7/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+
+
+         <div class="doc-card" data-type="proj" data-title="SEVESO-III Directive Report">
+          <div class="doc-title">SEVESO-III Directive Report</div>
+          <div class="doc-meta">Project report · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="SEVESO-III Directive Report"
+              data-src="https://drive.google.com/file/d/1V2LIMM3CYevZlGS0x4TdXKSBg0AgeOcX/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+
+         <div class="doc-card" data-type="proj" data-title="Environmental Science and Research Report (TFAC Gas handling and Storage (HIRA))">
+          <div class="doc-title">TFAC Gas Safety and Environmental Study</div>
+          <div class="doc-meta">Project report · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="Environmental study Report"
+              data-src="https://drive.google.com/file/d/1LEavZcMCC6r7Bho3FX1ySSbaysEwOFE-/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+
+         <div class="doc-card" data-type="proj" data-title="CyHAZOP Report">
+          <div class="doc-title">Functional Safety in Industrial facilities CyHAZOP Report</div>
+          <div class="doc-meta">Project report · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="HAZOP Report"
+              data-src="https://drive.google.com/file/d/1EqmZ5qeWYyvqYW2I0bHw_hAyQVieGbcl/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+
+         <div class="doc-card" data-type="proj" data-title="Numerical Simulation Report">
+          <div class="doc-title">Numerical Simulation in Industrial Explosion Report (Using OPEN Foam)</div>
+          <div class="doc-meta">Project report · PDF · View-only embed</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="Numerical Simulation Report"
+              data-src="https://drive.google.com/file/d/1fhFyBIQ4ThVcCzm-KbTqkJc-SunRBdnm/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Docs -->
+   <section class="card">
+      <div class="section-head">
+        <h2 class="section-title">Academic Documents</h2>
+        <div class="section-sub">Transcripts, module summaries, etc. (share selectively)</div>
+      </div>
+ <div class="grid">
+        <div class="doc-card" data-type="acad" data-title="Transcript">
+          <div class="doc-title">Bachelors Transcript / Grades (Selected)</div>
+          <div class="doc-meta">PDF · Consider redacting sensitive IDs</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="Transcript (Selected)"
+              data-src="https://drive.google.com/file/d/1yqJHRU_eNb8x_c3Twp-yV7ucKdjnZ8lQ/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+
+     
+      <div class="grid">
+        <div class="doc-card" data-type="acad" data-title="Transcript">
+          <div class="doc-title">Masters Transcript / Grades (Selected)</div>
+          <div class="doc-meta">PDF · Consider redacting sensitive IDs</div>
+          <div class="doc-actions">
+            <button class="btn btn-primary"
+              data-view-title="Transcript (Selected)"
+              data-src="https://drive.google.com/file/d/1IUhaUCtRjaD2cTiJA08wVY0FbdyNfZkH/view?usp=drive_link">
+              View
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Tip: watermark every PDF page (Name · Year · “For review only”).
+    </footer>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <div class="modal-bar">
+        <div id="modalTitle" class="modal-title">Document</div>
+        <button id="closeBtn" class="modal-close">Close</button>
+      </div>
+      <iframe id="modalFrame" class="modal-iframe" src=""></iframe>
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById('modal');
+    const modalFrame = document.getElementById('modalFrame');
+    const modalTitle = document.getElementById('modalTitle');
+    const closeBtn = document.getElementById('closeBtn');
+
+    function openModal(title, src){
+      modalTitle.textContent = title;
+      modalFrame.src = src;
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden','false');
+    }
+    function closeModal(){
+      modalFrame.src = '';
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden','true');
+    }
+
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-src]');
+      if (btn) openModal(btn.dataset.viewTitle, btn.dataset.src);
+
+      if (e.target === modal) closeModal(); // click outside panel closes
+    });
+
+    closeBtn.addEventListener('click', closeModal);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+    });
+
+    // Search + filter
+    const q = document.getElementById('q');
+    const tags = Array.from(document.querySelectorAll('.tag'));
+    const cards = Array.from(document.querySelectorAll('.doc-card'));
+    let currentFilter = 'all';
+
+    function apply(){
+      const needle = (q.value || '').trim().toLowerCase();
+      cards.forEach(c => {
+        const type = c.dataset.type;
+        const title = (c.dataset.title || '').toLowerCase() + ' ' + c.innerText.toLowerCase();
+        const okType = (currentFilter === 'all') || (type === currentFilter);
+        const okText = needle === '' || title.includes(needle);
+        c.style.display = (okType && okText) ? '' : 'none';
+      });
+    }
+
+    tags.forEach(t => {
+      t.addEventListener('click', () => {
+        tags.forEach(x => x.classList.remove('active'));
+        t.classList.add('active');
+        const f = t.getAttribute('data-filter');
+        currentFilter = (f === 'cert' || f === 'proj' || f === 'acad') ? f : 'all';
+        apply();
+      });
+    });
+
+    q.addEventListener('input', apply);
+  </script>
+</body>
+</html>
