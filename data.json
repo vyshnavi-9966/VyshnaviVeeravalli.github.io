@@ -36,5 +36,15 @@
     "TFAC",
     "Hazard"
   ]
+},
+  {
+  "type": "proj",
+  "title": "SEVESO-III Directive",
+  "meta": "Report",
+  "url": "https://drive.google.com/file/d/1V2LIMM3CYevZlGS0x4TdXKSBg0AgeOcX/preview",
+  "tags": [
+    "SEVESO",
+    "Safety"
+  ]
 }
 ]
